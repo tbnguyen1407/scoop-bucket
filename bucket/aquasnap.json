@@ -1,0 +1,36 @@
+{
+    "version": "1.24.1",
+    "description": "The best tiling window manager for Windows",
+    "homepage": "https://www.nurgo-software.com/products/aquasnap",
+    "license": "Commercial",
+    "architecture": {
+        "64bit": {
+            "url": "https://www.nurgo-software.com/download/AquaSnap.zip"
+        },
+        "32bit": {
+            "url": "https://www.nurgo-software.com/download/AquaSnap.zip"
+        }
+    },
+    "bin": "AquaSnap.Daemon.exe",
+    "persist": "AquaSnap.ini",
+    "shortcuts": [
+        [
+            "AquaSnap.Daemon.exe",
+            "AquaSnap"
+        ]
+    ],
+    "checkver": {
+        "url": "https://www.nurgo-software.com/company/news/13-aquasnap",
+        "regex": "AquaSnap v(\\d+\\.\\d+\\.\\d+)"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://www.nurgo-software.com/download/AquaSnap.zip"
+            },
+            "32bit": {
+                "url": "https://www.nurgo-software.com/download/AquaSnap.zip"
+            }
+        }
+    }
+}
