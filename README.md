@@ -3,18 +3,16 @@
 <!-- Uncomment the following line after replacing placeholders -->
 [![Tests](https://github.com/tbnguyen1407/scoop-bucket/actions/workflows/ci.yml/badge.svg)](https://github.com/tbnguyen1407/scoop-bucket/actions/workflows/ci.yml) [![Excavator](https://github.com/tbnguyen1407/scoop-bucket/actions/workflows/excavator.yml/badge.svg)](https://github.com/tbnguyen1407/scoop-bucket/actions/workflows/excavator.yml)
 
-## How do I install these manifests?
+## Requirements
 
-After manifests have been committed and pushed, run the following:
+- [Scoop](https://github.com/ScoopInstaller/Scoop)
+
+## Usage
 
 ```pwsh
-scoop bucket add tbnguyen1407 https://github.com/tbnguyen1407/scoop-bucket
-scoop install tbnguyen1407/<manifestname>
+## add bucket
+$ scoop bucket add <bucket> https://github.com/tbnguyen1407/scoop-bucket
+
+## install manifest
+$ scoop install <bucket>/<manifest>
 ```
-
-## How do I contribute new manifests?
-
-To make a new manifest contribution, please read the [Contributing
-Guide](https://github.com/ScoopInstaller/.github/blob/main/.github/CONTRIBUTING.md)
-and [App Manifests](https://github.com/ScoopInstaller/Scoop/wiki/App-Manifests)
-wiki page.
