@@ -37,8 +37,8 @@
         "Far.exe.ini"
     ],
     "checkver": {
-        "github": "https://github.com/FarGroup/FarManager/tags",
-        "regex": "/releases/tag/ci%2Fv([\\d.]+)"
+        "github": "https://github.com/FarGroup/FarManager",
+        "regex": "/releases/tag/ci/v([\\d.]+)"
     },
     "autoupdate": {
         "architecture": {
