@@ -12,7 +12,7 @@
         },
         "32bit": {
             "url": "https://github.com/FarGroup/FarManager/releases/download/ci%2Fv3.0.6455.4222/Far.x86.3.0.6455.4222.741e64f156b5da664525d2e5cb9b9d0835f8e057.7z"
-        }
+        },
         "arm64": {
             "url": "https://github.com/FarGroup/FarManager/releases/download/ci%2Fv3.0.6455.4222/Far.ARM64.3.0.6455.4222.741e64f156b5da664525d2e5cb9b9d0835f8e057.7z"
         }
